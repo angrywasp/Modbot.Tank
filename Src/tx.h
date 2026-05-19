@@ -1,12 +1,12 @@
 #include "simpletools.h"
 
-#include "./lib/modules/MCU.h"
-#include "./lib/modules/PSU.h"
+#include "modules/MCU.h"
+#include "modules/PSU.h"
 
-#include "./lib/drivers/SSD1306.h"
-#include "./lib/drivers/NRF24L01.h"
-#include "./lib/IO.h"
-#include "./lib/refs.h"
+#include "drivers/SSD1306.h"
+#include "drivers/NRF24L01.h"
+#include "IO.h"
+#include "refs.h"
 
 static byte *rf_addr = (byte *)"pbot";
 static byte channel = 113;

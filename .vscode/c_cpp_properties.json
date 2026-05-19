@@ -6,6 +6,7 @@
                 "${workspaceFolder}/**",
                 "${env:PROPGCC}/include/**",
                 "${env:PROPGCC}/propeller-elf/include/**",
+                "${workspaceFolder}/External/ModBot/Src/**"
             ],
             "defines": [
                 "_DEBUG",
