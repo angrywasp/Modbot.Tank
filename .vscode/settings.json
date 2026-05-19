@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "refs.h": "c"
+    },
+    "editor.minimap.enabled": false,
+    //"editor.fontFamily": "'Ubuntu Mono', monospace",
+    "explorer.openEditors.visible": 1,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1" ,
+        "MSYSTEM": "MINGW64",
+    },
+    "terminal.integrated.profiles.windows": {
+        "bash (MSYS2)": {
+            "path": "C:/msys64/usr/bin/bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "bash (MSYS2)",
+    "C_Cpp.default.compilerPath": "C:/msys64/home/Steve/propeller-gcc/bin/propeller-elf-gcc.exe"
+}

@@ -1,0 +1,3 @@
+[submodule "External/ModBot"]
+	path = External/ModBot
+	url = https://github.com/angrywasp/modbot
