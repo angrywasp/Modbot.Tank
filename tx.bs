@@ -1,0 +1,5 @@
+rem | exec rather than including to keep that build process and all the junk associated like environment variables separate
+rem | exec("bsi", "External/Modbot/make.bs --run buildFramework()")
+
+var cmd = fmt("External/Modbot/make.bs --run buildProgram(\"{0}\")", "tx")
+exec("bsi", cmd)
