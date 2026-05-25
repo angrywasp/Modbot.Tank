@@ -10,3 +10,7 @@ hardware/**/**/*-rescue.lib
 hardware/**/**/*.net
 hardware/**/**/fp-info-cache
 hardware/**/**/sym-lib-table
+hardware/**/**/*.kicad_sch.lck
+hardware/**/**/*.kicad_prl
+hardware/**/**/fp-info-cache
+Kicad/**/**/*.bak
